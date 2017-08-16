@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/***************** top image *****************/
+
+#backGround {
+    background-image: url('../img/right-side-of-modern-laptop-with-room-for-text-picjumbo-com.jpg');
+    background-position: center;
+    background-size: cover;
+    max-height: 400px;
+    z-index: -1;
+}
+
+#backGround {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: .7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 500px;
+    margin: -10px -10px;
+    color: white;
+}
+
+#backGround h1 {
+    margin: 0 15px 5px 0;
+    align-self: flex-end;
+}
+
+#backGround h2 {
+    margin: 0 15px 5px 0;
+    align-self: flex-end
+}
+
+
+/***************** Sticky *****************/
+
+.is-sticky .sticky {
+    background-color: black;
+    z-index: 1000;
+    padding: 12px 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+/***************** wrapper *****************/
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.wrapper div {
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+/***************** footer *****************/
+
+footer {
+    height: 150px;
+}
