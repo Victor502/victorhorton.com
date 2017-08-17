@@ -2,36 +2,50 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 /***************** top image *****************/
 
 #backGround {
-    background-image: url('../img/right-side-of-modern-laptop-with-room-for-text-picjumbo-com.jpg');
-    background-position: center;
+    background: url("../img/computer-1836330_1920.png") no-repeat top center fixed;
     background-size: cover;
-    max-height: 400px;
-    z-index: -1;
-}
-
-#backGround {
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
     font-family: 'Cabin', sans-serif;
-    letter-spacing: .7px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 500px;
-    margin: -10px -10px;
-    color: white;
 }
 
-#backGround h1 {
-    margin: 0 15px 5px 0;
-    align-self: flex-end;
+.sticky {
+    margin: 20px;
+    text-align: left;
 }
 
-#backGround h2 {
-    margin: 0 15px 5px 0;
-    align-self: flex-end
+#backGround p {
+    margin: 20px;
+    text-align: left;
 }
 
 
@@ -40,7 +54,7 @@
 .is-sticky .sticky {
     background-color: black;
     z-index: 1000;
-    padding: 12px 0;
+    padding: 0;
     margin: auto;
     text-align: center;
 }
