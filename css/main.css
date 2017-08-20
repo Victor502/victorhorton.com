@@ -32,7 +32,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Bentham', serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -57,8 +57,21 @@ body {
     padding: 0;
     margin: auto;
     text-align: center;
+    font-family: 'Bentham', serif;
 }
 
+/***************** Index *****************/
+
+.portfolio a{
+    text-decoration: none;
+    color: black;
+}
+
+/***************** Content *****************/
+
+.content {
+    font-family: 'Bentham', serif;
+}
 
 /***************** wrapper *****************/
 
@@ -71,9 +84,30 @@ body {
     margin: 25px auto;
 }
 
+.wrapper p {
+    font-size: 1.75rem
+}
+
 .wrapper div {
     margin: 10px 0;
     text-align: center;
+}
+
+.github {
+    background-color: orange;
+    width:  100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 0 25px;
+    font-family: 'Bentham', serif;   
+}
+
+.github a {
+    text-decoration: none;
 }
 
 

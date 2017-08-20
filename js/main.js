@@ -13,3 +13,6 @@ $('.sticky').sticky({
 $('.sticky').on('sticky-end', function() {
     $('.email-text').remove();
 });*/
+
+
+
