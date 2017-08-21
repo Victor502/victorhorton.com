@@ -1,9 +1,13 @@
-$(document).ready(function(){
-    $(".sticky").sticky({topSpacing:0});
-  });
+$(document).ready(function () {
+    $(".sticky").sticky({
+        topSpacing: 0,
+        responsiveWidth: true
+    });
+});
 
-$('.sticky').sticky({
-  responsiveWidth: true
+$('.navbar').sticky({
+    topSpacing: 37,
+        responsiveWidth: true
 });
 
 /*$('.sticky').on('sticky-start', function() {
@@ -13,6 +17,4 @@ $('.sticky').sticky({
 $('.sticky').on('sticky-end', function() {
     $('.email-text').remove();
 });*/
-
-
 
