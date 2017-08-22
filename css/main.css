@@ -69,6 +69,7 @@ body {
 .webname {
     margin-top: auto;
     padding-bottom: 5px;
+    font-family: 'Bentham', serif;
 }
 
 .webname p {
@@ -157,6 +158,12 @@ body {
     color: orange;
 }
 
+/***************** About page *****************/
+
+
+.uofl {
+    color: red;
+}
 
 /***************** footer *****************/
 
