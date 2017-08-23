@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Me | VictorHorton.com</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="js/bootstrap-4.0.0beta/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bentham" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <script src="js/gen_validatorv31.js"></script>
+</head>
+
+<body>
+    <div class="webname">
+        <div class="sticky">
+            <h1>Contact Me</h1>
+        </div>
+        <p>Website Development and Design</p>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: orange">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="examples.html" class="nav-link">Examples</a></li>
+                <li class="nav-item"><a href="myprocess.html" class="nav-link">My Process</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="wrapper">
+        <div>
+            <h3>Thank you for your interest. Please fill out the form below. I will be in contact soon.</h3>
+        </div>
+    </section>
+    <section class="wrapper">
+        <div>
+            <form method="POST" name="contactform" action="contact-form-handler.php" id="needs-validation" class="cont-form" novalidate>
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Name" value="" required>
+                    <div class="invalid-feedback">
+                        Please provide your name.
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" class="form-control" id="email" placeholder="Email" required>
+                    <div class="invalid-feedback">
+                        Please provide an Email.
+                    </div>
+                </div>
+                <div>
+                    <label for="phone">Optional</label>
+                    <input name="phone" type="text" class="form-control" id="phone" placeholder="Phone number">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea type="text" name="message" class="form-control" id="message" placeholder="Message" row="12" required></textarea>
+                    <div class="invalid-feedback">
+                        Please provide a message.
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit" value="Submit">Submit form</button>
+            </form>
+        </div>
+
+    </section>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            "use strict";
+            window.addEventListener("load", function() {
+                var form = document.getElementById("needs-validation");
+                form.addEventListener("submit", function(event) {
+                    if (form.checkValidity() == false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add("was-validated");
+                }, false);
+            }, false);
+        }());
+    </script>
+
+    <footer>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/victor.c.horton" target="_blank" title="FaceBook"><span class="icon-facebook" data-icon="ea90">
+                </span></a>
+            <a href="https://www.instagram.com/victorh502/" target="_blank" title="Instagram"><span class="icon-instagram" data-icon="ea92">
+                </span></a>
+            <a href="https://twitter.com/VictorHorton" target="_blank" title="Twitter"><span class="icon-twitter" data-icon="ea96">
+                </span></a>
+            <a href="https://www.linkedin.com/in/victorhorton/" target="_blank" title="LinkedIn"><span class="icon-linkedin2" data-icon="eaca">
+                </span></a>
+        </div>
+        <p>Victorhorton.com &copy; 2017</p>
+    </footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/bootstrap-4.0.0beta/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

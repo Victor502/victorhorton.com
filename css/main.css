@@ -86,12 +86,10 @@ body {
     padding-left: 10px;
 }
 
-.is-sticky .sticky {
-    color: black;
-}
 
 .is-sticky .sticky {
     background-color: orange;
+    color: black;
     z-index: 1000;
     padding: 0;
     margin: auto;
@@ -128,6 +126,7 @@ body {
     justify-content: center;
     width: 80%;
     margin: 25px auto;
+    font-family: 'Bentham', serif;
 }
 
 .wrapper p {
@@ -160,10 +159,25 @@ body {
 
 /***************** About page *****************/
 
-
 .uofl {
     color: red;
 }
+
+/***************** form *****************/
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cont-form input,
+.cont-form textarea{
+    border: 2px solid orange;
+}
+
 
 /***************** footer *****************/
 
@@ -176,6 +190,7 @@ footer {
     text-align: center;
     background-color: orange;
     margin: auto;
+    font-family: 'Bentham', serif;
 }
 
 .socialMedia{
