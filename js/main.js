@@ -6,7 +6,7 @@ $(document).ready(function () {
 });
 
 $('.navbar').sticky({
-    topSpacing: 37,
+    topSpacing: 42,
         responsiveWidth: true
 });
 
