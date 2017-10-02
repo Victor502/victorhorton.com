@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>http://victorhorton.com/</loc>
-  <lastmod>2017-08-24T11:14:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://victorhorton.com/index.html</loc>
-  <lastmod>2017-08-24T11:14:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://victorhorton.com/about.html</loc>
-  <lastmod>2017-08-24T11:13:40+00:00</lastmod>
-</url>
-<url>
-  <loc>http://victorhorton.com/examples.html</loc>
-  <lastmod>2017-08-24T11:13:55+00:00</lastmod>
-</url>
-<url>
-  <loc>http://victorhorton.com/myprocess.html</loc>
-  <lastmod>2017-08-24T11:14:46+00:00</lastmod>
-</url>
-<url>
-  <loc>http://victorhorton.com/offer.html</loc>
-  <lastmod>2017-08-24T11:13:22+00:00</lastmod>
-</url>
-<url>
-  <loc>http://victorhorton.com/contact.html</loc>
-  <lastmod>2017-08-24T11:13:48+00:00</lastmod>
-</url>
+    <url>
+        <loc>http://victorhorton.com/</loc>
+        <lastmod>2017-08-24T11:14:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://victorhorton.com/index.html</loc>
+        <lastmod>2017-08-24T11:14:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://victorhorton.com/about.html</loc>
+        <lastmod>2017-08-24T11:13:40+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://victorhorton.com/examples.html</loc>
+        <lastmod>2017-08-24T11:13:55+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://victorhorton.com/myprocess.html</loc>
+        <lastmod>2017-08-24T11:14:46+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://victorhorton.com/offer.html</loc>
+        <lastmod>2017-08-24T11:13:22+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://victorhorton.com/contact.html</loc>
+        <lastmod>2017-08-24T11:13:48+00:00</lastmod>
+    </url>
 </urlset>
