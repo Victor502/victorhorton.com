@@ -1,0 +1,1 @@
+This a website to show tell people about me as a developer. It's to also show people examples of my work.
