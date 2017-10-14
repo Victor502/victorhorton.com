@@ -138,6 +138,24 @@ body {
     text-align: center;
 }
 
+.wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 25px auto;
+    font-family: 'Bentham', serif;
+}
+
+.wrapper1 p {
+    font-size: 1.125rem;
+}
+
+.wrapper1 div {
+    margin: 10px 0;
+    text-align: center;
+}
 /***************** github *****************/
 
 .github {
@@ -242,4 +260,17 @@ footer {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+
+
+/***************** Media Query *****************/
+
+
+
+@media (min-width: 770px) {
+   
+    .wrapper div {
+        max-width: 80%;
+    }
 }
